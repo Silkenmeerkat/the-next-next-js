@@ -8,9 +8,13 @@ export default function HomePage() {
   const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret Hamilton'];
 
   const [likes, setLikes] = useState(0);
+  const [fucks, setFucks] = useState(0); 
 
   function handleClick() {
     setLikes(likes + 1);
+  }
+  function handleFucks(){
+    setFucks(fucks +1 )
   }
 
   return (
@@ -23,6 +27,8 @@ export default function HomePage() {
       </ul>
 
       <button onClick={handleClick}>Like ({likes})</button>
+      <button onClick={handleFucks}> fuckkkkkkks ({fucks})</button>
+      
     </div>
   );
 }
