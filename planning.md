@@ -5,13 +5,13 @@
 ## Technical steps to do mvp. 
 1. Pull the entire "db" from github pf2e foundry  link (every few weeks refresh?) https://github.com/foundryvtt/pf2e/tree/master/packs/equipment
 2. Choose a cheap/free db solution. 
-3. Store the data. (learn how :))
-4. Build an interface that asks for number of party members + level of party.
-5. Calculate the request: 
+3. Store the data.
+5. Build an interface that asks for number of party members + level of party.
+6. Calculate the request: 
     a. Get the value total for party. (this table: https://2e.aonprd.com/Rules.aspx?ID=581)
     b. Get recomended options + currency from table. 
     c. Choose the number of items, add their values together and spit out currency amount. 
-6. Build an interface that outputs the values. 
+7. Build an interface that outputs the values. 
 
 
 ## Nice to haves after core is done. 
